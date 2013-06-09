@@ -18,13 +18,14 @@ Configuration
  I use Rails 3.2.3 and Ruby 1.9.2 for the server and iOS 5 SDK with Xcode 4.2 for the client. 
 Todo project with Rails
  Let&#8217;s create the project using the rails new command
+` 
 $ cd work
 $ rails new todo-app
 $ cd todo-app
 $ git init 
 $ git add . 
 $ git commit -m "Initial Rails project"
-
+`
  At this time, we already have a running Rails app, if we want to see what&#8217;s already there, we can try:
 $ rails server
  And then we can open the Chrome browser, type http://localhost:3000/ and the magic default Rails homepage will appear
